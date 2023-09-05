@@ -24,3 +24,16 @@
     align-content: center;
     margin-left: 3rem;
 }
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.cta-app-container{
+    display: flex;
+    gap: .5rem;
+}
+

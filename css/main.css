@@ -3,20 +3,9 @@
 @import url('./base/typography.css');
 @import url('./layout/footer.css');
 @import url('./layout/forms.css');
+@import url('layout/grid.css');
+@import url('./layout/header.css');
 
-
-.hero-container{
-    width: 100%; 
-    background: url(../imgs/header-camping.webp);
-    background-position: center;
-    background-size: cover;
-    border-bottom-left-radius: 6rem;
-    border-bottom-right-radius: 6rem;
-    color: var(--clr-white);
-    height: min(45rem, 50rem, 55rem);
-    text-align: center;
-    width: 100%;
-}
 
 .top-nav{
     display: flex;
@@ -41,12 +30,6 @@
    font-size: var(--fs-md);
 }
 
-.cta-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-}
 
 .btn{
     display: flex;
@@ -139,10 +122,7 @@
     cursor: pointer;
 }
 
-.cta-app-container{
-    display: flex;
-    gap: .5rem;
-}
+
 
 /*landscape less than 768*/
 @media (max-width: 767.98px){
