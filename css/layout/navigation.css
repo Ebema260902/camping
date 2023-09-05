@@ -54,6 +54,8 @@
         width: 1.5rem;
         height: 1.5rem;  
         z-index: 3; 
+        /* background: var(--clr-white);
+        background-position: -.5rem 0; */
     }
 
     .mobile-btn > span,
@@ -78,6 +80,7 @@
     }
 
     .mobile-cb{
+        display: block;
         opacity: 0;
         position: fixed;
         top: 3rem;
