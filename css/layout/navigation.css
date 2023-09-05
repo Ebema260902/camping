@@ -58,6 +58,7 @@
         width: 100%;
         height: .2rem;
         background: var(--clr-main);
+        transition-duration: .25s;
     }
 
     .mobile-btn > span::before{
