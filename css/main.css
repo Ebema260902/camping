@@ -8,20 +8,3 @@
 @import url('./layout/navigation.css');
 @import url('./components/components.css');
 
-
-
-/*landscape less than 768*/
-@media (max-width: 767.98px){
-
-    .subscribe-content{
-        margin: 0 1rem 2rem;
-        text-align: center;
-        order: 2;
-    }
-
-    .subscribe-title{
-        margin: auto;
-    }
-
-}
-
