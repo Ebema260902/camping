@@ -13,3 +13,14 @@
     padding: 2rem 1rem;
     border-radius: 2rem;
 }
+
+.subscribe{
+    border-radius: 2rem;
+    background: var(--clr-inner-bg);
+}
+
+.subscribe-content{
+    display: grid;
+    align-content: center;
+    margin-left: 3rem;
+}
