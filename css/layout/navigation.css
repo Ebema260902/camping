@@ -30,16 +30,16 @@
     }
     
     .nav-list{
-        display: none;
-        /* display: grid; */
+        display: grid;
         position: fixed;
         margin: 0;
         top: 0;
-        right: 0;
+        right: -18rem;
         background: var(--clr-black);
         width: 50%;
         height: 100vh;
         align-content: center;
+        z-index: 2;
     }
 
     .mobile-btn{
@@ -47,7 +47,8 @@
         top: 4rem;
         right: 2rem;
         width: 1.5rem;
-        height: 1.5rem;   
+        height: 1.5rem;  
+        z-index: 3; 
     }
 
     .mobile-btn > span,
@@ -95,5 +96,8 @@
         transform: rotate(90deg);
     }
 
+    .mobile-cb:checked ~ .nav-list{
+        right:0;
+    }
 
 }
