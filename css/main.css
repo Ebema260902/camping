@@ -1,43 +1,6 @@
-@import url(./vars.css);
+@import url(./abstracts/vars.css);
 
-/*
-h1{
-    font-family: var(--ff-main);
-    font-size: var(--fs-xl);
-    font-weight: var(--fw-bk);
-}
-*/
-/*
-.btn{
-    
-    background: var(--clr-main);
-    border-radius: 25px;
-    color: var(--clr-white);
-    display: block;
-    color: var(--clr-white);
-    /*height: 20px;*/
-    /*
-    font-family: var(--ff-secondary);
-    font-size: var(--fs md);
-    font-weight: var(--fw-mf);
-    padding: 1rem 0;
-    text-align: center;
-    text-decoration: none;
-    width: 205px;
-    
-}
-*/
-html{
-    font-size: 16px;
-}
 
-body{
-    background: var(--clr-main-bg);
-    font-family: var(--ff-secondary);
-    display: grid;
-    margin: 0;
-    padding: 0;
-}
 
 .hero-container{
     width: 100%; 
