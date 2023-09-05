@@ -1,5 +1,6 @@
 @import url('./abstracts/vars.css');
 @import url('./base/base.css');
+@import url('./base/typography.css');
 
 
 
@@ -39,16 +40,7 @@
    font-size: var(--fs-md);
 }
 
-.hero-title{    
-    font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl));
-    font-family: var(--ff-main);
-}
 
-.hero-text{
-    font-size: var(--fs-md);
-    width: clamp(30ch, 50%, 55ch);
-    margin: 0 auto 2rem;
-}
 
 .cta-container{
     display: flex;
@@ -95,11 +87,7 @@
 
 }
 
-.activity-title{
-    font-size: var(--fs-md);
-    font-family: var(--ff-main);
-    margin: 1rem, 0 0;
-}
+
 
 .activity-text{
     font-size: var(--fs-nm);
@@ -137,8 +125,6 @@
     right: 2rem;
 }
 
-
-
 .activity-price{
     display: block;
     position: absolute;
@@ -172,7 +158,6 @@
     display: grid;
     align-content: center;
     margin-left: 3rem;
-
 }
 
 .subscribe-image{
@@ -206,7 +191,6 @@
 .email:focus{
     outline: none;
     box-shadow: 0 0 0 .1rem var(--clr-main);
-
 }
 
 .submit-btn{
