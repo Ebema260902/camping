@@ -16,3 +16,7 @@
     font-family: var(--ff-main);
     margin: 1rem, 0 0;
 }
+
+.activity-text{
+    font-size: var(--fs-nm);
+}
