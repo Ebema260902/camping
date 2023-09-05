@@ -71,12 +71,18 @@
     }
 
     .mobile-cb{
+        opacity: 0;
         position: fixed;
         top: 3rem;
         right: 1.6rem;
         z-index: 4;
-        opacity: 0;
         width: 2rem;
         height: 1.7rem;
     }
+
+    .mobile-cb:checked + .mobile-btn > span{
+        transform: rotate(45deg);
+    }
+
+
 }
