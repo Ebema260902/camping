@@ -1,0 +1,15 @@
+.activities-container{
+    display: grid;
+    width: 80vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.activity{
+    display: grid;
+    background: var(--clr-white);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
