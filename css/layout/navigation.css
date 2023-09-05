@@ -39,5 +39,6 @@
         background: var(--clr-black);
         width: 50%;
         height: 100vh;
+        align-content: center;
     }
 }
