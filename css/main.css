@@ -92,12 +92,6 @@
     text-align: center;
 }
 
-.destinations-title{
-    font-family: var(--ff-main);
-    font-size: clamp(var(--fs-md, 1.875rem, var(--fs-lg)));
-    width: 17ch;
-    margin: 1rem auto;
-}
 
 .activity-thumb{
     display: flex;
