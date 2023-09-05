@@ -41,4 +41,13 @@
         height: 100vh;
         align-content: center;
     }
+
+    .mobile-btn{
+        position: fixed;
+        top: 4rem;
+        right: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        
+    }
 }
