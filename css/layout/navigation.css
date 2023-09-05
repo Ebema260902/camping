@@ -21,6 +21,10 @@
    font-size: var(--fs-md);
 }
 
+.mobile-cb{
+    display: none;
+}
+
 
 /*landscape less than 768*/
 @media (max-width: 767.98px){
@@ -108,8 +112,6 @@
         right:0;
     }
 
-    .mobile-cb{
-        display: none;
-    }
+    
 
 }
