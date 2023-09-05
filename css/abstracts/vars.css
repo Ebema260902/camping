@@ -23,5 +23,5 @@
     --clr-grat-bg: hsla(0, 0%, 55%, .1);
     --clr-gray-txt: hsla(0, 0%, 55%, 1);
     --clr-black: hsl(0, 0%, 0%, 1);
-    --clr-black-l: hsl(0, 0%, 0%, .5);
+    --clr-black-l: hsla(0, 0%, 0%, 0.9);
 }
