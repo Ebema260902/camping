@@ -30,8 +30,8 @@
     }
     
     .nav-list{
-        /* display: none; */
-        display: grid;
+        display: none;
+        /* display: grid; */
         position: fixed;
         margin: 0;
         top: 0;
