@@ -27,3 +27,9 @@
     width: 17ch;
     margin: 1rem auto;
 }
+
+.subscribe-title{
+    font-size: clamp(2rem, 2.25rem, var(--fs-lg));
+    width: min(80%, 90%, 100%);
+    margin: 0;
+}

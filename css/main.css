@@ -165,12 +165,6 @@
     gap: .5rem;
 }
 
-.subscribe-title{
-    font-size: clamp(2rem, 2.25rem, var(--fs-lg));
-    width: min(80%, 90%, 100%);
-    margin: 0;
-}
-
 .email{
     border: none;
     padding: .5rem;
