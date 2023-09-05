@@ -58,7 +58,15 @@
         width: 100%;
         height: .2rem;
         background: var(--clr-main);
+    }
 
+    .mobile-btn > span::before{
+        content:'';
+        top: -.5rem;
+    }
 
+    .mobile-btn > span::after{
+        content:'';
+        top: .5rem;
     }
 }
