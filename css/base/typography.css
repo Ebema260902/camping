@@ -33,3 +33,11 @@
     width: min(80%, 90%, 100%);
     margin: 0;
 }
+
+/*landscape less than 768*/
+@media (max-width: 767.98px){
+   
+    .subscribe-title{
+        margin: auto;
+    }
+}
