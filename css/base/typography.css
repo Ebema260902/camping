@@ -1,5 +1,3 @@
-
-
 .hero-title{    
     font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl));
     font-family: var(--ff-main);

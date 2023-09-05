@@ -69,4 +69,11 @@
         content:'';
         top: .5rem;
     }
+
+    .mobile-cb{
+        position: fixed;
+        top: 3.5rem;
+        right: 2.25rem;
+        
+    }
 }
