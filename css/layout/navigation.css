@@ -105,4 +105,8 @@
         right:0;
     }
 
+    .mobile-cb{
+        display: none;
+    }
+
 }
