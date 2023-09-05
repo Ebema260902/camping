@@ -41,7 +41,7 @@
         align-content: center;
         z-index: 2;
         transition: right .35s;
-        box-shadow: -.1rem 0 0.5 var(--clr-black);
+        box-shadow: -.1rem 0 0.5 var(--clr-white);
     }
 
     .mobile-btn{
