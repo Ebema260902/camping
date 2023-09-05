@@ -30,6 +30,13 @@
     }
     
     .nav-list{
-        display: none;
+        /* display: none; */
+        display: grid;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: var(--clr-black);
+        width: 50%;
+        height: 100vh;
     }
 }
