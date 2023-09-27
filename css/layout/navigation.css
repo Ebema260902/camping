@@ -1,18 +1,20 @@
 .top-nav{
+    background: #62331b;
     display: flex;
     align-items: center;
-    margin-top: 3rem;
-    margin-left: 10rem;
+    margin-top: auto;
+    margin-left: auto;
     margin-bottom: 8rem;
 }
 
 .nav-list{
+    text-emphasis-color: black;
     display: flex;
     align-items: center;
     padding: 0;
     gap: 1rem;
     list-style-type: none;
-    margin-left: 2rem;
+    margin-left: 12rem;
 }
 
 .nav-list-link{

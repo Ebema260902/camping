@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background: var(--clr-main-bg);
+    background: white;
     font-family: var(--ff-secondary);
     display: grid;
     margin: 0;

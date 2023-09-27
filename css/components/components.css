@@ -77,6 +77,12 @@
     margin-top: 2rem;
 }
 
+.main-image{
+    position: absolute;
+    top: 54px;
+    left: 177px;
+}
+
 
 .submit-btn{
     background: url(../imgs/icons/send.svg) var(--clr-main);
